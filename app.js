@@ -14,7 +14,7 @@ mongoose.set('useUnifiedTopology', true)
 mongoose.connect('mongodb://localhost/users' , { useNewUrlParser: true, useCreateIndex: true} )
 
 // Middleware
-app.set('port', 3000);
+app.set('port', 8081);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(logger('dev'));
